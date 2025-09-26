@@ -21,35 +21,35 @@ It covers all major RAP layers: persistence, behavior definition & projection, C
 
     Also includes draft actions: `Activate`, `Discard`, `Edit`, `Resume`, `Prepare`.
 
-  ![Behavior Definition](img/Behavior%20definition.png)
+  ![Behavior Definition](Behavior%20definition.png)
 
 - **Behavior Projection**
   - `ZRAP100_C_TRAVELTP_090`  
     Projects the behavior to the consumer view.  
     Exposes standard and custom actions to the UI/service layer.
 
-  ![Behavior Projection](img/Behavior%20projection.png)
+  ![Behavior Projection](Behavior%20projection.png)
 
 - **Interface View**
   - `ZRAP100_R_TRAVELTP_090`  
     Core data service entity view with associations to related entities (`Agency`, `Customer`, `OverallStatus`, `Currency`).  
     Includes semantics, consumption hints, and annotations for file attachments.
 
-  ![Interface View](img/Interface%20view.png)
+  ![Interface View](Interface%20view.png)
 
 - **Projection View**
   - `ZRAP100_C_TRAVELTP_090`  
     Provides the consumer-facing projection of the Travel entity.  
     Supports search, associations, and query contracts for OData exposure.
 
-  ![Projection View](img/Projection%20view.png)
+  ![Projection View](Projection%20view.png)
 
 - **Metadata Extension**
   - `ZRAP100_C_TRAVELTP_090`  
     UI annotations defining how Travel data should be displayed in the Fiori Elements app.  
     Configures `lineItem`, `identification`, and action buttons (e.g., **Copy Travel**, **Accept Travel**, **Reject Travel**, **Deduct Discount**).
 
-  ![Metadata Extension](img/Metdata%20extension.png)
+  ![Metadata Extension](Metdata%20extension.png)
 
 ## 🚀 Features Implemented
 - Full RAP stack implementation
