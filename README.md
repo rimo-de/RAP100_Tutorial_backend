@@ -8,7 +8,7 @@ It covers all major RAP layers: persistence, behavior definition & projection, C
     Defines the persistence layer for travel data.  
     Includes fields such as `TravelID`, `AgencyID`, `CustomerID`, `BeginDate`, `EndDate`, `BookingFee`, `TotalPrice`, and audit fields (`CreatedBy`, `LastChangedAt`).
 
-  ![Database Table](img/DB%20Table.png)
+  ![Database Table](DB%20Table.png)
 
 - **Behavior Definition**
   - `ZRAP100_R_TRAVELTP_090`  
