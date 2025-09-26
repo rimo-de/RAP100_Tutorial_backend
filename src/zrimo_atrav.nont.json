@@ -1,0 +1,11 @@
+{
+  "formatVersion": "1",
+  "header": {
+    "description": "SAP Object Node Type ZRIMO_ATRAV",
+    "originalLanguage": "en",
+    "abapLanguageVersion": "cloudDevelopment"
+  },
+  "name": "ZRIMO_ATRAV",
+  "sapObjectType": "ZRIMO_ATRAV",
+  "rootNode": true
+}
